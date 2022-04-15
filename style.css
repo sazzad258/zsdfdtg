@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #profile{
+position: relative !important;
+} */
+.main{
+    margin-top: 2%;
+}
+.brand{
+  object-fit: cover;
+    margin-top: 10% !important;
+    height: 7rem !important;
+    width: 7rem !important;
+    border-radius: 50%;
+    outline: #18416b 3px solid;
+    border: 3px dashed white;
+    padding: 1px;
+}
+@media only screen and (max-width: 600px) {
+  .brand{
+    object-fit: cover;
+      margin-top: 10% !important;
+      height: 50px !important;
+      width: 55px !important;
+      border-radius: 50%;
+      outline: #18416b 3px solid;
+      border: 3px dashed white;
+      padding: 1px;
+  }
+}
+
+.home{
+  border-bottom: #18416b 1px solid;
+  margin-bottom: 10px;
+}
+#left{
+    background-color: #34495E;
+    color: antiquewhite;
+    border-radius: 20px;
+    height: 80vh;
+    position: fixed !important;
+    margin-bottom: 20px !important;
+    overflow-y: scroll;
+}
+
+/* Tabs */
+.tabs {
+  width: 600px;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+}
+#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+#tabs-nav li {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: rgb(22, 0, 22);
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  width: 100%;
+ background-image: linear-gradient(rgba(240, 248, 255, 0.637),rgba(240, 248, 255, 0.5)), url(https://media.istockphoto.com/vectors/hand-drawn-gray-contours-of-abstract-flowers-and-leaves-on-white-vector-id1153150274?k=20&m=1153150274&s=612x612&w=0&h=NtDOU7n7K3uoci2AsrSG97MfYED7xDQo1ScdHGHGAb4=);
+ height: 100%;
+ background-size: cover;
+ margin-left: 38%;
+}
+
+/* Just for CodePen styling - don't include if you copy paste */
+html {
+  margin: 0;
+  padding: 0;
+}
+body { 
+  font-weight: 300;
+  margin: 2em;
+}
+#a{
+  height: 180px ;
+  width: 400px;
+  border: #34495ea1 solid 4px;
+  object-fit: cover;
+}
+.breake .foods{
+  height: 150px;
+  width: 100%;
+  object-position: center;
+  object-fit:cover ;
+}
+#tabtxt {
+  border-left: 2px solid #34495E;
+  padding: 2%;
+}
+@media only screen and (max-width: 600px) {
+  #tabtxt {
+    display: none;
+  }
+  .sub_title{
+    font-size: 7px;
+  }
+  #tabs-nav li a {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 764px) {
+.text-dark{
+  padding: 5%;
+}
+}
+::-webkit-scrollbar{
+  width: 2px;
+  margin: 5px;
+}
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0);
+  background-size: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #34495E;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background-color: #2566a8;
+}
+.show_price{
+  border: none;
+  background-color: #2566a8;
+  padding: 3px 15px;
+  color: white;
+}
+#hide{
+  background-color: black;
+  border: none;
+  margin-left: 90% !important;
+}
+.download{
+  color: black;
+  text-decoration: none;
+  border: 1px dotted black;
+  padding: 5px;
+}
+.tab-title{
+  font-family: "Sofia", sans-serif;
+display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#left-bar{
+  border-left: 2px solid black;
+}
+#progress{
+  width: 100%;
+}
+#massage_button{
+  margin-top: -100px !important;
+  background-color:#2566a8;
+  border: none;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+#myModal{
+width: 80%;
+background-color: rgba(0, 0, 0, 0.137);
+margin-left: 20% !important;
+margin-top: 10%;
+padding: 5%;
+}
+@media only screen and (max-width: 600px) {
+  #myModal{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.137);
+    margin-left: 20% !important;
+    margin-top: 50%;
+    padding: 5%;
+    }
+}
+
+.drp{
+  padding: 10% 7%; 
+  border: #2566a8 1px dashed;
+  margin: 4% 8%;
+}
+.msg_input{
+  width: 100%;
+  outline: #2566a8 1px solid;
+}
+#sent{
+  margin-left: -25px;
+  position: absolute;
+  border-radius: 30px;
+  background-color: #18416b;
+  color: #FFF;
+  padding: 8px;
+}
+.msg_content{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.my_text{
+  
+  max-width: 80%;
+  background-color: rgb(255, 160, 44);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 5px 5px;
+}
+
+.clint_text{
+  position: relative !important;
+  max-width: 80%;
+  background-color: rgb(255, 189, 109);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 5px 5px;
+}
+
+header{
+  background-color: #2566a8 !important;
+}
+
+.carousel-item img{
+  height: 400px;
+  object-fit: cover;
+}
