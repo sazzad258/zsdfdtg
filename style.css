@@ -186,6 +186,10 @@ padding: 5%;
     margin-top: 50%;
     padding: 5%;
     }
+    .carousel-item img{
+      height: 200px !important;
+      object-fit: contain !important;
+    }
 }
 
 .drp{
