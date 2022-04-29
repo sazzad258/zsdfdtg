@@ -1,0 +1,193 @@
+body{
+  height: 200vh;
+}
+.profile_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 3px ;
+    background-color: whitesmoke;
+    border: 4px solid rgb(49, 49, 49);
+}
+main{
+    width: 90%;
+}
+.sub_nav {
+   text-align: center;
+   margin-top: 30px;
+}
+.sub_nav a{
+    text-decoration: none;
+    color: white;
+}
+.sub_nav a:hover{
+    color: whitesmoke;
+}
+.cv{
+    background-color: rgb(49, 49, 49);
+     padding: 6px ;
+    border-radius: 4px;
+    margin: 1% 1%;
+}
+.whats_app{
+    background-color: rgb(214, 164, 0);
+    padding: 6px 3%;
+    border-radius: 4px;
+    margin: 1% 1%;
+}
+.massanger{
+    background-color: rgb(0, 150, 100);
+    padding: 6px 3%;
+    border-radius: 4px;
+    margin: 1% 1%;
+}
+
+.download{
+  padding: 5px 1%;
+    border-radius: 4px;
+    margin: 2% 1%;
+}
+.down{
+  padding: 2px 1%;
+    border-radius: 4px;
+    margin: 3% 1%;
+    border-left: #FFF solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tabs */
+.tabs {
+    margin-top: 7%;
+    width: 100%;
+    transition: 0.5s;
+    
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    transition: 00.5s;
+  }
+  ul#tabs-nav li {
+      width: 100%;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    color: rgb(240, 240, 240) !important;
+    cursor: pointer;
+  }
+
+  ul#tabs-nav li.active {
+   background-color: rgba(0, 0, 0, 0.356) !important;
+   color: white;
+}
+ul#tabs-nav li:active {
+  background-color: rgba(0, 0, 0, 0.356) !important;
+  color: white;
+}
+ul#tabs-nav li a.active {
+  color: white;
+}
+
+
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+      border-bottom: 2px solid rgb(49, 49, 49);
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .tab-content {
+    padding: 10px;
+    background-color: #FFF;
+  }
+
+
+  #tab2{
+    background-color: rgba(0, 0, 0, 0.747) ;
+  }
+
+  .card{
+    margin:  5px;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    padding: 5px !important;
+    margin-right: 10px !important;
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(87, 87, 87); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(87, 87, 87); 
+  }
+.project_button{
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.project_img{
+  height: 250px;
+  width: 100% !important;
+  object-fit: cover;
+}
+.insta a{
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+#draggable{
+  height:10px;
+  width: 10px !important;
+  position: fixed;
+  margin-left: 80% !important;
+  z-index: 1;
+}
+#draggable img{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border: 3px rgba(112, 112, 112, 0.671)  solid;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+#draggable img:active{
+  height: 35px;
+  width: 35px;
+  opacity: 0.7;
+}
+#draggable img:hover{
+  border: 3px rgba(10, 157, 255, 0.671)  solid;
+}
